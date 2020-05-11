@@ -1,0 +1,27 @@
+snippet frame "frame environment in beamer" b
+\\begin\{frame\}\{${1:Title}\}
+	$0
+\\end\{frame\}
+endsnippet
+
+snippet inc "includegraphics" b
+\\includegraphics[width=$1, height=$2, ${3:keepaspectratio}]\{$4\}
+endsnippet
+
+snippet columns "columns and column s" b
+\\begin\{columns\}[$1]
+	\\begin\{column\}\{0.$2\\textwidth\}
+		$0
+	\\end\{column\}
+	\\begin\{column\}\{0.$3\\textwidth\}
+	\\end\{column\}
+\\end\{columns\}
+endsnippet
+
+snippet tw "textwidth" w
+\\textwidth
+endsnippet
+
+snippet th "textheight" w
+\\textheight
+endsnippet
