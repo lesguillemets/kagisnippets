@@ -1,10 +1,34 @@
 {
+	"includegraphics": {
+		"prefix": "inc",
+		"body": "\\includegraphics[width=1\\textwidth, height=${2:0.8}\\textheight, keepaspectratio]{$1}"
+	},
 	"frame": {
 		"prefix": "frame",
 		"body": [
 			"\\begin{frame}{$1} %:::",
 			"\t$0",
 			"\\end{frame} %;;;"
+		]
+	},
+	"block": {
+		"prefix": "block",
+		"body": [
+			"\\begin{block}{$1}",
+			"\t$0",
+			"\\end{block}"
+		]
+	},
+	"columns-2": {
+		"prefix": "col2",
+		"body": [
+			"\\begin{columns}",
+			"\t\\begin{column}{${2:0.5}\\textwidth}",
+			"\t\t$1",
+			"\t\\end{column}",
+			"\t\\begin{column}{${3:0.5}\\textwidth}",
+			"\t\\end{column}",
+			"\\end{columns}"
 		]
 	}
 }
