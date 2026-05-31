@@ -1,0 +1,17 @@
+{
+    "name": "kagisnippets",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": [
+                    "tex",
+                    "latex",
+                ],
+                "path": "./snippets/tex.json"
+            },
+        ]
+    }
+}
