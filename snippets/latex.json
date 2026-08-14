@@ -1,7 +1,8 @@
 {
 	"includegraphics": {
 		"prefix": "inc",
-		"body": "\\includegraphics[width=1\\textwidth, height=${2:0.8}\\textheight, keepaspectratio]{$1}"
+		"body": "\\includegraphics[width=1\\textwidth, height=${2:0.8}\\textheight, keepaspectratio]{$1}",
+		"description": "include graphics full width"
 	},
 	"frame": {
 		"prefix": "frame",
@@ -9,7 +10,8 @@
 			"\\begin{frame}{$1} %:::",
 			"\t$0",
 			"\\end{frame} %;;;"
-		]
+		],
+		"description": "frame environment"
 	},
 	"block": {
 		"prefix": "block",
@@ -17,7 +19,8 @@
 			"\\begin{block}{$1}",
 			"\t$0",
 			"\\end{block}"
-		]
+		],
+		"description" : "block environment"
 	},
 	"columns-2": {
 		"prefix": "col2",
@@ -29,6 +32,7 @@
 			"\t\\begin{column}{${3:0.5}\\textwidth}",
 			"\t\\end{column}",
 			"\\end{columns}"
-		]
+		],
+		"description": "two columns"
 	}
 }
