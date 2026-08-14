@@ -1,4 +1,13 @@
 {
+	"itemize": {
+		"prefix": "item",
+		"body": [
+			"\\begin{itemoze}",
+			"\t\\item {$1}",
+			"\\end{itemize}"
+		],
+		"description": "itemize environment"
+	},
 	"includegraphics": {
 		"prefix": "inc",
 		"body": "\\includegraphics[width=1\\textwidth, height=${2:0.8}\\textheight, keepaspectratio]{$1}",
