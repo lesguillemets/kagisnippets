@@ -2,7 +2,7 @@
 	"itemize": {
 		"prefix": "item",
 		"body": [
-			"\\begin{itemoze}",
+			"\\begin{itemize}",
 			"\t\\item {$1}",
 			"\\end{itemize}"
 		],
