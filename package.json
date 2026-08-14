@@ -8,10 +8,10 @@
             {
                 "language": [
                     "tex",
-                    "latex",
+                    "latex"
                 ],
-                "path": "./snippets/tex.json"
-            },
+                "path": "./snippets/latex.json"
+            }
         ]
     }
 }
