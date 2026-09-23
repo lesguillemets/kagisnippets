@@ -7,6 +7,13 @@
 		],
 		"description": "logging"
 	},
+	"log_level_package": {
+		"prefix": "loglevel",
+		"body": [
+			"logging.getLogger(__package__).setLevel(logging.$1)"
+		],
+		"description": "logging with specified log level"
+	},
 	"repo_root_path" : {
 		"prefix": "path_root",
 		"body": [
