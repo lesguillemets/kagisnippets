@@ -11,6 +11,12 @@
                     "latex"
                 ],
                 "path": "./snippets/latex.json"
+            },
+            {
+                "language": [
+                    "python"
+                ],
+                "path": "./snippets/python.json"
             }
         ]
     }

@@ -1,0 +1,17 @@
+{
+	"logger": {
+		"prefix": "log",
+		"body": [
+			"import logging",
+			"logger = logging.getlogger(__name__)"
+		],
+		"description": "logging"
+	},
+	"repo_root_path" : {
+		"prefix": "path_root",
+		"body": [
+			"                  file   < pack <  src < root ",
+			"ROOT_DIR = Path(__file__).parent.parent.parent"
+		]
+	}
+}
